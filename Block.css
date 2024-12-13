@@ -1,0 +1,13 @@
+.block {
+    background: #a29bfe;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .block:hover {
+    background: #6c5ce7;
+  }
+  

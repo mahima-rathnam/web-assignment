@@ -1,0 +1,33 @@
+.progress-bar {
+    display: flex;
+    background: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .progress-segment {
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+  
+  .progress-segment.warm-up {
+    background: #74b9ff;
+  }
+  
+  .progress-segment.main-set {
+    background: #6c5ce7;
+  }
+  
+  .progress-segment.cool-down {
+    background: #55efc4;
+  }
+  
+  .progress-total {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
